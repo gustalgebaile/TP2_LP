@@ -1,4 +1,6 @@
 package org.example.Exe3;
 
-public class Cliente {
+public interface Cliente {
+    String getNome();
 }
+

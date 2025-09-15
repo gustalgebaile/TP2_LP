@@ -1,4 +1,11 @@
-package org.example.Exe6;
+import org.example.Exe6.Nationality;
 
-public class Nacionality {
+import java.awt.*;
+import java.util.List;
+
+public List<Color> getFlagColors(Nationality nationality) {
+    return nationality.getFlagColors();
+}
+
+void main() {
 }
